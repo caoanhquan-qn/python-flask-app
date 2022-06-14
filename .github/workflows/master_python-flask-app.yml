@@ -30,8 +30,7 @@ jobs:
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
-          pip uninstall Flask Jinja2
-          pip install Flask Jinja2
+          pip install --upgrade Flask Jinja2
         
       # Optional: Add step to run tests here (PyTest, Django test suites, etc.)
       
