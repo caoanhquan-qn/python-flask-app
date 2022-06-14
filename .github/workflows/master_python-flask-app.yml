@@ -31,8 +31,6 @@ jobs:
         run: |
           pip install -r requirements.txt
           pip install --upgrade Flask
-          export FLASK_APP=application.py
-          flask run
         
       # Optional: Add step to run tests here (PyTest, Django test suites, etc.)
       
